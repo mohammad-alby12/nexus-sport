@@ -1,4 +1,4 @@
-import { getMatches, supportedSports } from '../services/sportsService.js';
+import { getMatches, supportedSports } from './sportsService.js';
 
 export async function listSports(_req, res) {
   res.json({ sports: supportedSports });
