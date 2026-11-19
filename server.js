@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
-import { config } from './config.js';
-import matchesRouter from './routes/matches.js';
-import privateRouter from './routes/private.js';
+import { config } from 'config.js';
+import matchesRouter from 'matches.js';
+import privateRouter from 'private.js';
 
 const app = express();
 app.disable('x-powered-by');
