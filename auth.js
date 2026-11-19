@@ -1,4 +1,4 @@
-import { supabaseForToken } from '../lib/supabase.js';
+import { supabaseForToken } from 'supabase.js';
 
 export async function requireAuth(req, res, next) {
   const header = req.headers.authorization || '';
