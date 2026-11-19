@@ -1,5 +1,5 @@
 import NodeCache from 'node-cache';
-import { config } from '../config.js';
+import { config } from './config.js';
 
 const cache = new NodeCache({ stdTTL: config.cacheTtl, checkperiod: 60, useClones: false });
 const SPORTS = {
