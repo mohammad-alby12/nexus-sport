@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
-import { config } from 'config.js';
+import { config } from 'src/app/config.js';
 import matchesRouter from 'matches.js';
 import privateRouter from 'private.js';
 
