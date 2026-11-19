@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { listSports, matchesForSport } from 'sportsController.js';
+import { listSports, matchesForSport } from './sportsController.js';
 
 const router = Router();
 router.get('/sports', listSports);
